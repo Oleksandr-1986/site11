@@ -2007,6 +2007,11 @@ body.touch .arrow {
   display: none;
 }
 
+.header__bottom {
+  position: relative;
+  z-index: 2;
+}
+
 .header__bottom .arrow {
   color: #111;
   margin-top: 3px;
@@ -3648,7 +3653,7 @@ body.touch .arrow {
     position: relative;
     width: 30px;
     height: 20px;
-    z-index: 10;
+    z-index: 30;
     right: 20px;
     top: 0px;
   }
@@ -3754,7 +3759,7 @@ body.touch .arrow {
 
   .header__menu_right.active {
     top: 0;
-    z-index: 4;
+    z-index: 20;
   }
 
   .header__menu_right .header__menu_list {
